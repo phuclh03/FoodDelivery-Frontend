@@ -1,0 +1,21 @@
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    z-index: 1000;
+  }
+  
+  .top-button:hover {
+    background-color: rgb(160, 86, 74);
+    transform: scale(1.05);
+  }
+  
